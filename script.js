@@ -1,5 +1,7 @@
 // Links buttons to JavaScript.
 document.getElementById('button').addEventListener('click', randomizer)
+document.getElementById('again').addEventListener('click', randomizer)
+
 // Sets default values.
 let randomNumber = 0
 let userGuess = 0
@@ -12,7 +14,7 @@ function randomizer () {
   randomNumber = Math.random() * 6 + 1
   randomNumber = parseInt(randomNumber)
   // Compares user's number guess with random generated number.
-  if (userGuess == randomNumber) {
+  if (userGuess === randomNumber) {
     document.getElementById('answer').innerHTML = "Are you a mastermind?"
   }
 }
