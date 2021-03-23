@@ -1,0 +1,13 @@
+#heading {
+  background-color: chartreuse;
+  text-align: center;
+}
+
+#dice {
+  width: 25%;
+  height: 25%;
+}
+
+#body {
+  background-color: coral;
+}
