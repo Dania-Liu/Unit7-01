@@ -15,6 +15,6 @@ function randomizer () {
   randomNumber = parseInt(randomNumber)
   // Compares user's number guess with random generated number.
   if (userGuess === randomNumber) {
-    document.getElementById('answer').innerHTML = "Are you a mastermind?"
+    document.getElementById('answer').innerHTML = 'Are you a mastermind?'
   }
 }
